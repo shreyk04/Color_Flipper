@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: azure;
+  font-family: "Barlow", sans-serif;
+}
+.navbar {
+  font-size: 1.5rem;
+  display: grid;
+  height: 5rem;
+}
+nav {
+  width: 100vw;
+  /* max-width: 600px; */
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(224, 233, 224);
+}
+nav h3 {
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+}
+.links {
+  display: flex;
+}
+.links li {
+  padding: 20px;
+
+  list-style: none;
+}
+.links li a {
+  color: rgb(14, 20, 20);
+  letter-spacing: 0.21rem;
+  padding: 0.8rem;
+  text-decoration: none;
+}
+.links li a:hover {
+  color: aliceblue;
+  background-color: rgb(46, 48, 48);
+  border-radius: 1rem;
+}
+nav h3 {
+  margin-left: 100px;
+}
+main {
+  min-height: calc(100vh - 5rem);
+
+  display: grid;
+  place-items: center;
+}
+.container {
+  text-align: center;
+}
+.container h1 {
+  background-color: rgb(27, 27, 27);
+  color: rgb(208, 212, 214);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  letter-spacing: 0.16rem;
+}
+.color_name {
+  color: crimson;
+}
+#btn {
+  margin-top: 2rem;
+}
+button {
+  letter-spacing: 0.16rem;
+  padding: 1rem 1.7rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  border-radius: 1rem;
+  border: none;
+  background-color: rgb(224, 233, 224);
+}
+button:hover {
+  background-color: transparent;
+  border: 1px solid rgb(63, 62, 62);
+}
